@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import Duty Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .center img {
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Import Duty Calculator</h1>
+    <form id="dutyForm">
+        <label for="country">Importing from:</label>
+        <select id="country">
+            <!-- List of countries alphabetically -->
+            <option value="au">Australia</option>
+            <option value="at">Austria</option>
+            <option value="bd">Bangladesh</option>
+            <option value="be">Belgium</option>
+            <option value="br">Brazil</option>
+            <option value="bg">Bulgaria</option>
+            <option value="ca">Canada</option>
+            <option value="cn">China</option>
+            <option value="hr">Croatia</option>
+            <option value="cz">Czech Republic</option>
+            <option value="dk">Denmark</option>
+            <option value="eg">Egypt</option>
+            <option value="ee">Estonia</option>
+            <option value="fi">Finland</option>
+            <option value="fr">France</option>
+            <option value="de">Germany</option>
+            <option value="gr">Greece</option>
+            <option value="hu">Hungary</option>
+            <option value="in">India</option>
+            <option value="id">Indonesia</option>
+            <option value="ie">Ireland</option>
+            <option value="it">Italy</option>
+            <option value="jp">Japan</option>
+            <option value="kz">Kazakhstan</option>
+            <option value="kr">South Korea</option>
+            <option value="kg">Kyrgyzstan</option>
+            <option value="lv">Latvia</option>
+            <option value="lt">Lithuania</option>
+            <option value="my">Malaysia</option>
+            <option value="mx">Mexico</option>
+            <option value="mn">Mongolia</option>
+            <option value="np">Nepal</option>
+            <option value="nl">Netherlands</option>
+            <option value="nz">New Zealand</option>
+            <option value="no">Norway</option>
+            <option value="pk">Pakistan</option>
+            <option value="ph">Philippines</option>
+            <option value="pl">Poland</option>
+            <option value="pt">Portugal</option>
+            <option value="ro">Romania</option>
+            <option value="ru">Russia</option>
+            <option value="sa">Saudi Arabia</option>
+            <option value="sg">Singapore</option>
+            <option value="sk">Slovakia</option>
+            <option value="si">Slovenia</option>
+            <option value="za">South Africa</option>
+            <option value="es">Spain</option>
+            <option value="se">Sweden</option>
+            <option value="ch">Switzerland</option>
+            <option value="th">Thailand</option>
+            <option value="tr">Turkey</option>
+            <option value="ua">Ukraine</option>
+            <option value="ae">United Arab Emirates</option>
+            <option value="gb">United Kingdom</option>
+            <option value="us">United States</option>
+            <option value="vn">Vietnam</option>
+        </select>
+        <label for="product">Product Type:</label>
+        <select id="product">
+            <option value="electronics">Electronics</option>
+            <option value="vehicles">Vehicles</option>
+        </select>
+        <label for="value">Product Value (in USD):</label>
+        <input type="number" id="value" required>
+        <button type="submit">Calculate Duty</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+    <div class="center">
+        <a href="https://www.youtube.com/@Codecraftandtechreview" target="_blank">
+            <img src="C:\Users\Rizon\OneDrive\Desktop\Website Code\Project Image\OIP.jpg" alt="Visit our YouTube Channel">
+        </a>
+        <p>Click on this image link to visit our YouTube Channel if you want to learn coding and know more about technologies.</p>
+    </div>
+</body>
+</html>
